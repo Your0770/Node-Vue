@@ -96,7 +96,7 @@ server.get('/emps', (req, res) => {
 /*
   req.params => pathvariable => content-type : X
   req.body => JSON => application/json : {} or []
-  req.query => QueryString(질의문자열) => application/x-www-urlencoded : key=value&key=value&...
+  req.query(get) => req.body(post) => QueryString(질의문자열) => application/x-www-urlencoded : key=value&key=value&...
 */
 
 // 단건조회 : get, emps/:id(값을 받는 위치) => pathvariable(경로에 붙는 변수)
