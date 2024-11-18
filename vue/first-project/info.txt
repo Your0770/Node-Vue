@@ -1,0 +1,16 @@
+구조 설명
+
+assets : 정적파일(css, js, 이미지 파일)
+components : 한 페이지를 구성하는 조각들
+router : 프로젝트 내부에 등록된 라우팅 관리
+views : 라우팅에서 호출하는 큰 규모의 Component
+
+App.vue : Root 객체 정의
+main.js : vue 객체 시작점
+
+Router ┌ 경로 : view  ┌ Component
+       │              └ Component
+       ├ 경로 : view  ┌ Component
+       │              └ Component
+       └ 경로 : view  ┌ Component
+                      └ Component
