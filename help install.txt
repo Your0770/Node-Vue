@@ -32,3 +32,9 @@ npm run serve
 
 vuex 설치
 vue add vuex
+
+vuex-persistedstate 설치(vuex는 일회성이라 유지하는 라이브러리)
+npm install vuex-persistedstate
+
+axios 설치
+npm install axios
