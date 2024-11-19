@@ -29,3 +29,6 @@ cd vue-test
 
 vue 서버 실행
 npm run serve
+
+vuex 설치
+vue add vuex

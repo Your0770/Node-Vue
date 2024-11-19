@@ -11,7 +11,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="(prod, idx) in products" v-bind:key="idx">
+        <tr v-for="(prod, idx) in products" v-bind:key="idx"> //key 는 idx 넣으면 안됨
           <td>{{ prod.product_name }}</td>
           <td>{{ prod.price }}</td>
           <td>{{ prod.category }}</td>

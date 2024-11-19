@@ -7,6 +7,7 @@
     <router-link v-bind:to="{name : 'listBind'}">ListBinding</router-link> |
     <router-link :to="{path : '/ifBinding'}">IfBinding</router-link> |
     <router-link to="/onEvent">OnEvent</router-link> |
+    <router-link to="/comWatch">ComputedWatch</router-link> |
   </nav>
   <router-view/>
   <hr>
